@@ -1,0 +1,12 @@
+E:\Documents\Telerik-Software-Academy\High-Quality Code\Homework\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.XML
+E:\Documents\Telerik-Software-Academy\High-Quality Code\Homework\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.dll
+E:\Documents\Telerik-Software-Academy\High-Quality Code\Homework\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.pdb
+E:\Documents\Telerik-Software-Academy\High-Quality Code\Homework\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.csprojResolveAssemblyReference.cache
+E:\Documents\Telerik-Software-Academy\High-Quality Code\Homework\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.dll
+E:\Documents\Telerik-Software-Academy\High-Quality Code\Homework\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.pdb
+C:\Users\George\Downloads\HW_GeorgiYolovski_Komentirane-i-dokumentirane-na-koda_2013-04-14_15-43\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.XML
+C:\Users\George\Downloads\HW_GeorgiYolovski_Komentirane-i-dokumentirane-na-koda_2013-04-14_15-43\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.dll
+C:\Users\George\Downloads\HW_GeorgiYolovski_Komentirane-i-dokumentirane-na-koda_2013-04-14_15-43\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.pdb
+C:\Users\George\Downloads\HW_GeorgiYolovski_Komentirane-i-dokumentirane-na-koda_2013-04-14_15-43\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.csprojResolveAssemblyReference.cache
+C:\Users\George\Downloads\HW_GeorgiYolovski_Komentirane-i-dokumentirane-na-koda_2013-04-14_15-43\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.dll
+C:\Users\George\Downloads\HW_GeorgiYolovski_Komentirane-i-dokumentirane-na-koda_2013-04-14_15-43\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.pdb

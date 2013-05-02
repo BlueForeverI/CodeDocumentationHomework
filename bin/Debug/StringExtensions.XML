@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.ILS.Common.StringExtensions">
+            <summary>
+            Contains extensin methods for strings
+            </summary>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Calculates MD5 hash for a given string
+            </summary>
+            <param name="input">The string to generate hash for</param>
+            <returns>Generated MD5 hash</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToMd5Hash(System.String)"/> method
+            <code>
+            string hash = "Hello World!.ToMd5Hash();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Converts a string value to a boolean value
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>Boolean representation of the string</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)"/> method
+            <code>
+            bool isFemale = "true".ToBoolean();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+            <summary>
+            Parses a short value from a string
+            </summary>
+            <param name="input">The string to read from</param>
+            <returns>Extracted 'short' value</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)"/> method
+            <code>
+            short days = "365".ToShort();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+            <summary>
+            Parses a integer value from a string
+            </summary>
+            <param name="input">The string to read from</param>
+            <returns>Extracted 'int' value</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)"/> method
+            <code>
+            int peopleCount = "1234567".ToInteger();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+            <summary>
+            Parse long value from a string
+            </summary>
+            <param name="input">The string to read from</param>
+            <returns>Extracted 'long' value</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)"/> method
+            <code>
+            long totalWeightInGrams = "3498725178".ToLong();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            Convert a string to a DateTime 
+            </summary>
+            <param name="input">The string to convert</param>
+            <returns>DateTime representation of the string</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)"/> method
+            <code>
+            DateTime birthDay = "12.04.2013 г.".ToDateTime();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Makes the first letter of a strign in CAPITAL_CASE
+            </summary>
+            <param name="input">The string to capitalize</param>
+            <returns>The same string, but with capitalized first letter</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)"/> method
+            <code>
+            string name = "pesho".CapitalizeFirstLetter();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Return a strign that is placed between two other strings
+            </summary>
+            <param name="input">The whole string</param>
+            <param name="startString">The string to start extracting from</param>
+            <param name="endString">The string to end extracting</param>
+            <param name="startFrom">Index to start searching from (default is 0)</param>
+            <returns>
+            The string that is between the start and end strings, 
+            and is after the index
+            </returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)"/> method
+            <code>
+            string anchorContent = "<a>Hello</a>".GetStringBetween("<a>", "</a>");
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Converts all cyrilic characters in a string to latin characters
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>A string with all cyrilic characters replaced with latin letters</returns>
+            <example>
+            This sample shows call to call the <see cref="!:ConvertCyrilicToLatinLetters"/> method
+            <code>
+            string latin = "Иванчо и Марийка отишли на училище".ConvertCyrilicToLatinLetters();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Converts all latin characters in a string to cyrilic characters
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>A string with all latin characters replaced with cyrilic letters</returns>
+            <example>
+            This sample shows call to call the <see cref="!:ConvertLatinToCyrilicKeyboard"/> method
+            <code>
+            string cyrilic = "Baj Pesho".ConvertLatinTOCyrilicKeyboard();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Converts a string to a valid username
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>A string that is a valid username</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToValidUsername(System.String)"/> method
+            <code>
+            string username = "bai pesho-95".ToValidUsername();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Convers a string to a valid file name
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>A string that is a valid file name</returns>
+            <example>
+            This sample shows call to call the <see cref="!:ToValidLatinFilename"/> method
+            <code>
+            string fileName = "What is this?_?.html".ToValidLatinFileName();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Gets the first cahrsCount characters from a string
+            </summary>
+            <param name="input">The string to get characters from</param>
+            <param name="charsCount">Number of characters to get</param>
+            <returns>The first charsCount characters as a string</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)"/> method
+            <code>
+            string beginning = "Hello World!".GetFirstCharacters(5);
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Extracts the extension from a file name
+            </summary>
+            <param name="fileName">File name to extract from</param>
+            <returns>The extension of the file</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)"/> method
+            <code>
+            string extension = "file.html".GetFileExtension();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+            <summary>
+            Return the content type of a file
+            based on the extension
+            </summary>
+            <param name="fileExtension">Exxtension of the file</param>
+            <returns>The content type of the file</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)"/> method
+            <code>
+            string contentType = "avatar.png".ToContentType();
+            </code>
+            </example>
+        </member>
+        <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Convert a string to a byte array
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>The byte representation of the string</returns>
+            <example>
+            This sample shows call to call the <see cref="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)"/> method
+            <code>
+            byte[] buffer = "The quick brown fox".ToByteArray();
+            </code>
+            </example>
+        </member>
+    </members>
+</doc>
